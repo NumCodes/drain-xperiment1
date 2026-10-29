@@ -4,6 +4,14 @@
 
 Open-source, non-custodial tool for rescuing and migrating assets from one EVM wallet to another.
 
+## 🚨 **IMPORTANT WARNINGS**
+
+- **ONLY use with wallets you OWN**
+- **NEVER use for theft or unauthorized access**
+- **Always verify destination addresses**
+- **Test with small amounts first**
+- **This tool is for legitimate purposes only**
+
 ## Overview
 
 Drain helps people move every token they still control out of a compromised or outdated wallet and into a fresh one. It scans the connected wallet for native currency and ERC-20 balances, lets the user pick what to move, and then sends the assets to a destination address in as few signatures as possible. The wallet that is being drained always stays in control, so private keys and seed phrases are never shared with the app.
