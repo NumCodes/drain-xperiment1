@@ -1,0 +1,59 @@
+{
+  "name": "@create-web3/frontend",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "prepare": "husky install",
+    "export": "next export",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:ui": "vitest --ui",
+    "test:all": "npm run lint && npx tsc --noEmit && vitest run"
+  },
+  "dependencies": {
+    "@geist-ui/core": "^2.3.8",
+    "@rainbow-me/rainbowkit": "^2.2.10",
+    "@tanstack/react-query": "^5.90.12",
+    "essential-eth": "^0.6.0",
+    "jotai": "^1.8.0",
+    "next": "^16.3.5",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-github-corner": "^2.5.0",
+    "viem": "^2.41.2",
+    "wagmi": "^2.19.5",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/ui": "^4.1.11",
+    "autoprefixer": "^10.4.22",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.7",
+    "husky": "^9.1.7",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "tailwindcss": "^3.1.5",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*": [
+      "prettier -u --write"
+    ]
+  }
+}
