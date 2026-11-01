@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const SITE_URL = 'https://drain-tokens.vercel.app';
+const SITE_URL = 'https://draintokens-bice.vercel.app';
 const GUIDE_URL = `${SITE_URL}/compromised-wallet-rescue/`;
 const PREVIEW_URL = `${SITE_URL}/drain-preview.png`;
 const TITLE = 'Compromised crypto wallet? A practical rescue guide | Drain';
@@ -212,7 +212,7 @@ const CompromisedWalletRescueGuide = () => (
               <div>
                 <h3>Verify the app before connecting</h3>
                 <p>
-                  Use <strong>drain-tokens.vercel.app</strong>, or inspect the
+                  Use <strong>draintokens-bice.vercel.app</strong>, or inspect the
                   source and run it locally. Ignore unsolicited “support” links.
                 </p>
               </div>
@@ -315,7 +315,7 @@ const CompromisedWalletRescueGuide = () => (
             to sign.
           </p>
           <a
-            href="https://github.com/dawsbot/drain"
+            href="https://github.com/NumCodes/drain-xperiment1"
             target="_blank"
             rel="noreferrer"
           >
@@ -327,7 +327,7 @@ const CompromisedWalletRescueGuide = () => (
 
     <footer className="drain-footer">
       Open-source wallet migration for EVM networks ·{' '}
-      <a href="https://github.com/dawsbot/drain">source</a>
+      <a href="https://github.com/NumCodes/drain-xperiment1">source</a>
     </footer>
   </div>
 );
